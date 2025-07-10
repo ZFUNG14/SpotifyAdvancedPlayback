@@ -32,7 +32,7 @@ As of now, the project is still a small Python program that uses the Spotify Web
 
 ```
 git clone https://github.com/ZFUNG14/SpotifyAdvancedPlayback.git
-cd SPOTIFYAPI
+cd SpotifyAdvancedPlayback
 ```
 
 2. Set up the `.env` file. Create a `.env` file in the root of the project with the following:
