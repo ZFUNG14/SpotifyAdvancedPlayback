@@ -6,11 +6,11 @@ This project aims to evolve into a plugin that provides advanced playback contro
 
 By the end of development, I hope to implement the following key features:
 
-1. Context-aware playback chaining
+1. **Context-aware playback chaining**
 
    Automatically queue specific songs to follow one another when certain tracks are played. This is especially useful for fans of music albums where some songs are meant to flow seamlessly into the next. In shuffle mode, this feature ensures those transitions still happen the way the artist intended.
 
-2. Improved queue manipulation
+2. **Improved queue manipulation**
 
    Offer greater control over managing songs in the queue. For example, if you add several songs to the end of the queue and want one of them to play next, you currently have to drag it manually to the top. This plugin will make it easier to prioritize newly added songs without interrupting your listening flow.
 
@@ -22,17 +22,17 @@ As of now, the project is still a small Python program that uses the Spotify Web
 
 ### 📁 Files
 
-- main2.py: Core script that lets you input an artist's name in the terminal and returns their top 10 songs.
-- main.py: A minimal script to verify that your Spotify API credentials are working. It prints an access token.
-- .env: You need to add this file yourself (see instructions below).
+- **main2.py**: Core script that lets you input an artist's name in the terminal and returns their top 10 songs.
+- **main.py**: A minimal script to verify that your Spotify API credentials are working. It prints an access token.
+- **.env**: You need to add this file yourself (see instructions below).
 
 ### 🚀 How to Use
 
 1. Clone the repository
 
 ```
-git clone https://github.com/yourusername/spotify-playback-plugin.git
-cd spotify-playback-plugin
+git clone https://github.com/ZFUNG14/SpotifyAdvancedPlayback.git
+cd SPOTIFYAPI
 ```
 
 2. Set up the `.env` file. Create a `.env` file in the root of the project with the following:
